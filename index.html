@@ -6,13 +6,40 @@
         <title> BraveWo </title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    
+        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/welcome.css">
     </head>
     <body>
-        <div id="header"></div>
-        <div id="mainSection"></div>
+        <div id="mainSection" class="welcome">
+            <section class="titles text-center">
+                <h2> Bienvenido a </h2>
+                <h3> Nombre App</h3>
+            </section>
+            <section class="problemDescription">
+                <h3> Problematica </h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic error consequatur vitae dicta adipisci non aperiam ex minus quisquam nihil fuga aliquam dolore eaque repudiandae cum libero temporibus, inventore perspiciatis?</p>
+            </section>
+            <section class="avatarSection text-center" >
+                <h5> Ingresa tu nombre </h5>
+                <input type="text" placeholder="Ingresa un nombre" id="avantarName"/>
+                <div class="selectAvatar">
+                    <h5 class="text-left"> Elige un avatar </p>
+                    <div id="avatars">
+                        <div class="avatarMales">
+                            <h6> Hombres </h6>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                        </div>
+                        <div class="avatarFemales">
+                            <h6> Mujeres </h6>
+                            <input type="checkbox" />
+                            <input type="checkbox" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="app.js"></script>  
+        <script src="js/app.js"></script>  
     </body>
 </html>

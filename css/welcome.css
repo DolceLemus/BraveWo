@@ -1,0 +1,42 @@
+#mainSection {
+    border: 1px solid red;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.titles {
+    border: 1px solid green;
+    padding: 3em;
+}
+
+.problemDescription {
+    background-color: aqua;
+}
+
+.avatarSection {
+    /*border: 1px dotted gold;*/
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+input#avantarName {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.selectAvatar {
+    box-sizing: border-box;
+}
+
+#avatars {
+    margin-top: 1.1em;
+    display: inline-flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.avatarFemales, .avatarMales {
+    text-align: center;
+    flex: 1;
+}
