@@ -19,7 +19,7 @@
     box-sizing: border-box;
 }
 
-input#avantarName {
+input#avatarName {
     width: 40%;
     margin: 0 auto;
 }
@@ -29,46 +29,46 @@ input#avantarName {
 }
 
 #avatars {
-    border: 1px solid blue;
     display: inline-flex;
     width: 100%;
     box-sizing: border-box;
 }
 
 .Females, .Males {
-    justify-content: center;
     flex: 1;
-    flex-direction: column;
+}
+
+#avatars h6 {
+    color: aqua;
+    font-size: 1em;
+    letter-spacing: 1px;
 }
 
 .Females > div, .Males > div {
     flex-direction: row;
 }
 
-.Females {
-    border: 1px solid green;
-}
-
-.Males {
-    background-color: green;
-}
-
-.malesAvatars {
+.malesAvatars, .femalesAvatars {
     display: inline-flex;
-    border: 1px solid gold;
     width: 100%;
 }
 
 .photoAvarts {
     position: relative;
-    height: 80vh;
-    width: 6em;
+    height: 10em;
+    border-radius: 50%;
 }
 
 .avatarBox {
-    border: 1px solid pink;
     flex: 1;
+    padding: 15px;
 }
+
+.avatarBox > input {
+    height: 20px;
+    width: 30px;
+    margin-top: 10px;
+} 
 
 .firstAvatar {
     background: no-repeat center url(../assets/firstAvatar.jpeg);
@@ -93,4 +93,12 @@ button#start {
     background-color: aquamarine;
     font-weight: 300;
     padding: .6em 0;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button#start a {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
