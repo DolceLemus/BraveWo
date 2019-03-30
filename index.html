@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title> BraveWo </title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600i" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
         <link rel="stylesheet" type="text/css" media="screen" href="css/welcome.css">
@@ -23,20 +24,37 @@
                 <h5> Ingresa tu nombre </h5>
                 <input type="text" placeholder="Ingresa un nombre" id="avantarName"/>
                 <div class="selectAvatar">
-                    <h5 class="text-left"> Elige un avatar </p>
+                    <h5 class=""> Elige un avatar </p>
                     <div id="avatars">
-                        <div class="avatarMales">
+                        <div class="Males">
                             <h6> Hombres </h6>
-                            <input type="checkbox"/>
-                            <input type="checkbox"/>
+                            <div class="malesAvatars">
+                                <div class="avatarBox firstCharacter">
+                                    <div class="photoAvarts firstAvatar"></div>
+                                    <input type="checkbox"/>
+                                </div>
+                                <div class="avatarBox secondCharacter">
+                                    <div class="photoAvarts secondAvatar"></div>
+                                    <input type="checkbox"/>
+                                </div>
+                            </div>
                         </div>
-                        <div class="avatarFemales">
+                        <div class="Females">
                             <h6> Mujeres </h6>
-                            <input type="checkbox" />
-                            <input type="checkbox" />
+                            <div class="avatarBox thirdCharacter">
+                                <div class="photoAvarts thirdAvatar"></div>
+                                <input type="checkbox"/>
+                            </div>
+                            <div class="avatarBox fourthCharacter">
+                                <div class="photoAvarts fourthAvatar"></div>
+                                <input type="checkbox"/>
+                            </div>
                         </div>
                     </div>
+                
+                
                 </div>
+                <button id="start" type="button"> Start </button>
             </section>
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
