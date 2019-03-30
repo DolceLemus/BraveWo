@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0 3em;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header {
+    flex: 1;
+    width: 100%;
+    border: 1px solid gold;
+}
+
+#mainSection {
+    flex: 3;
+    min-height: 90%;
+    box-sizing: border-box;
+}
+
+#mainSection.chapterOne {
+    background-image: url(../assets/bg-example.jpeg);
+}
+
+#dialogues {
+    border: 1px solid blue;
+    bottom: 15px;
+    margin: 0 4em;
+    padding: .5em;
+    z-index: 100;
+    position: fixed;
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+}
+
+#dialogues #mainCharacter h4 {
+    color: purple;
+}
+
+#dialogues #otherCharacter h4 {
+    color: blue;
+}
+
+/*<section id="playSet"></section>*/
