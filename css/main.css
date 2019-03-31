@@ -46,15 +46,23 @@ body {
     color: blue;
 }
 
-.dialogues > button.next {
+.dialogues button.next {
     float: right;
     border: none;
 }
 
-.dialogues > span.conversacion {
+.dialogues > i {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.dialogues > p {
     font-weight: bold;
 }
 
+.dialogues > .conversation {
+    margin-top: 15px;
+}
 
 .hidden {
     display: none;
