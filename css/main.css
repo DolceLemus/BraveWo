@@ -21,27 +21,55 @@ body {
 }
 
 #mainSection.chapterOne {
-    background-image: url(../assets/bg-example.jpeg);
+    background: no-repeat url(../assets/bg-example.jpeg);
 }
 
-#dialogues {
-    border: 1px solid blue;
+.dialogues {
     bottom: 15px;
-    margin: 0 4em;
+    margin: 0 auto;
     padding: .5em;
     z-index: 100;
     position: fixed;
     background-color: beige;
     color: black;
     border-radius: 5px;
+    width: 80%;
+    right: 0;
+    left: 0;
 }
 
-#dialogues #mainCharacter h4 {
+.dialogues h4.mainCharacter {
     color: purple;
 }
 
-#dialogues #otherCharacter h4 {
+.dialogues h4.otherCharacter {
     color: blue;
+}
+
+.dialogues button.next {
+    float: right;
+    border: none;
+}
+
+.dialogues > i {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.dialogues > p {
+    font-weight: bold;
+}
+
+.dialogues > .conversation {
+    margin-top: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
 }
 
 /*<section id="playSet"></section>*/

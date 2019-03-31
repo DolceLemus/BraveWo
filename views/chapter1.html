@@ -5,9 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title> BraveWo </title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600i" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css">
-    
     </head>
     <body>
         <div id="header">
@@ -15,20 +15,46 @@
             <nav> Score </nav>
         </div>
         <div id="mainSection" class="chapterOne">
-            <section id="dialogues">
-                <div id="mainCharacter">
-                    <h4> PP says: </h4>
-                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.! </p>
-                </div>
-                <div id="otherCharacter">
-                    <h4> 2 says: </h4>
-                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elitipsum, dolor sit amet consectetur adipisicing elitipsum, dolor sit amet consectetur adipisicing elit.! </p>
-                </div>
-                <div>
-                    <button id="op1">Opción 1</button>
-                    <button id="op2">Opción 2</button>
-                </div>
-            </section>
+            <div id="Chapter-1" >
+                <section id="c1e1" class="dialogues">
+                    <i>[  La puerta se abre de manera estruendosa, unos pasos van hacia tu cama  sabes lo que se avecina, lo vez venir, pero aun asi, mantienes tus ojos cerrados con fuerza, intentando fingir que nada sucede ] </i>
+                    <div class="buttonNext">
+                        <button type="button" class="next"> Next </button>
+                    </div>
+                </section>
+                <section id="c1e2" class="dialogues">
+                    <i> [  Las cobijas son jaladas de ti rapidamente , las cortinas abiertas y escuchas un par de ruidos de cosas moviendose ] </i>
+                    <div class="conversation">
+                        <h4 class="otherCharacter"> Mamá: </h4>
+                        <p>  Cariño, ya es tarde, por que estas cortinas siempre estan tan cerradas?, vamos, levantate, no es hora para estar asi </p>
+                    </div>
+                    <div class="buttonNext">
+                        <button type="button" class="next"> Next </button>
+                    </div>
+                </section>
+                <section id="c1e3" class="dialogues">
+                    <i> [ Gruñe entre las cobijas, aun tienes sueño, pero no hay mas opción ] </i>
+                    <div class="conversation">
+                        <h4 class="mainCharacter"> Marco: </h4>
+                        <p> Si mamá... ya escuche </p>
+                    </div>
+                    <div class="buttonNext">
+                        <button type="button" class="next"> Next </button>
+                    </div>
+                    <i> [ Te sacas las cobijas, y te sientas con sueño en la cama, aun bostezas ] </i>
+                </section>
+                <section id="c1e4" class="dialogues">
+                    <i>[ Camina a la puerta tranquilamente recogiendo algunas cosas del suelo ]</i>
+                    <div class="conversation">
+                        <h4 class="otherCharacter"> Mamá: </h4>
+                        <p>  La comida esta servida, tu padre hizo tu almuerzo para la escuela </p>
+                    </div>
+                    <i>[  La puerta se cierra dejandote mientras te estiras y comienzas a arreglarte, una vez terminado el desayuno, sales camino a la escuela ]</i>
+                    <div class="buttonNext">
+                        <button type="button" class="next"> Next </button>
+                    </div>
+                </section>
+            </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="../js/app.js"></script>  
